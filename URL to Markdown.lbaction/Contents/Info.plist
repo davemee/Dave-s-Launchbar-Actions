@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>208x128.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.tandot.LaunchBar.action.URLToMarkdown</string>
+	<key>CFBundleName</key>
+	<string>URL to Markdown</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>LBAbbreviation</key>
+	<string>utmd</string>
+	<key>LBArgument</key>
+	<string>URL</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBArgument</key>
+		<string>URL</string>
+		<key>LBAuthor</key>
+		<string>Dave Mee</string>
+		<key>LBEmail</key>
+		<string>davemee@gmail.com</string>
+		<key>LBRequirements</key>
+		<string>pandoc, curl</string>
+		<key>LBResult</key>
+		<string>Markdown</string>
+		<key>LBSummary</key>
+		<string>Downloads HTML content from a URL and re-writes it as Markdown using Pandoc. </string>
+		<key>LBTwitter</key>
+		<string>@davemee</string>
+		<key>LBWebsiteURL</key>
+		<string>http://davemee.com/</string>
+	</dict>
+	<key>LBRequirements</key>
+	<string>pandoc, curl</string>
+	<key>LBResult</key>
+	<string>Markdown</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.sh</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>URL</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Dave Mee, 2017. MIT license.</string>
+</dict>
+</plist>
