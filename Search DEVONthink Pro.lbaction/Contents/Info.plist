@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>devon_logo.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.davemee.LaunchBar.action.SearchDEVONthinkPro</string>
+	<key>CFBundleName</key>
+	<string>Search DEVONthink Pro</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>LBAbbreviation</key>
+	<string>SD</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.devon-technologies.think3</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Dave Mee</string>
+		<key>LBEmail</key>
+		<string>davemee@gmail.com</string>
+		<key>LBRequirements</key>
+		<string>DEVONthink Pro 3</string>
+		<key>LBSummary</key>
+		<string>Searches DEVONthink Pro 3 with suggestions</string>
+		<key>LBTwitter</key>
+		<string>@davemee</string>
+		<key>LBWebsiteURL</key>
+		<string>http://davemee.com/</string>
+	</dict>
+	<key>LBRequiredApplication</key>
+	<string>com.devon-technologies.think3</string>
+	<key>LBRequirements</key>
+	<string>DEVONthink Pro 3</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBLiveFeedbackEnabled</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.scpt</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Live &amp; prefix while typing</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>©2019 Dave Mee</string>
+</dict>
+</plist>
